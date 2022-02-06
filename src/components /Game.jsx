@@ -30,7 +30,7 @@ const Game = () =>{
       }
       <Board squares={board} click={handleClick} />
       <p className='game__info'>
-        {winner ? 'Победитель' + winner : 'Сейчас ходить ' +  (xIsNext ? 'X' : 'O') }
+        {winner ? 'Победитель ' + winner : 'Сейчас ходить ' +  (xIsNext ? 'X' : 'O') }
       </p>
     </div>
   )
